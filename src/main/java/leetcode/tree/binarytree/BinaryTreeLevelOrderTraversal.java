@@ -1,10 +1,9 @@
 package leetcode.tree.binarytree;
 
+import leetcode.common.BinaryTreeUtil;
 import leetcode.common.TreeNode;
-import org.junit.Before;
 import org.junit.Test;
 
-import java.util.LinkedList;
 import java.util.List;
 
 /**
@@ -15,12 +14,10 @@ import java.util.List;
  **/
 public class BinaryTreeLevelOrderTraversal {
 
-    @Before
-    public static void main(String[] args) {
-    }
     @Test
-    public List<List<Integer>> levelOrder(TreeNode root) {
-        return null;
+    public void  levelOrder() {
+        TreeNode root= BinaryTreeUtil.createBinaryTree();
+        BinaryTreeUtil.printBinnerTree_level_reverse(root);
     }
 
 }
