@@ -28,8 +28,8 @@ public class QuickSort {
         int i=left;
         int j=right;
         while (i<j){
-           while (a)
         }
 
+        return 0;
     }
 }
