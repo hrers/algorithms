@@ -14,7 +14,5 @@ package recent;
 public class jzoffer_15 {
     public static void main(String[] args) {
 
-
     }
-
 }
