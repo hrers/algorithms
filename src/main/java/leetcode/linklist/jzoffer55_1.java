@@ -1,6 +1,6 @@
 package leetcode.linklist;
 
-import leetcode.common.TreeNode;
+import common.util.TreeNode;
 
 /**
  * @Author: zhangjianwu

@@ -1,9 +1,6 @@
-package leetcode.common;
+package common.util;
 
-import java.net.Inet4Address;
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
 import java.util.stream.Collectors;
 
 /**

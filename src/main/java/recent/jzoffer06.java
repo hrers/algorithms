@@ -1,8 +1,7 @@
 package recent;
 
-import Util.ArrayUtil;
-import Util.NumUtil;
-import leetcode.common.ListNode;
+import common.util.ArrayUtil;
+import common.util.ListNode;
 import java.util.LinkedList;
 
 /**

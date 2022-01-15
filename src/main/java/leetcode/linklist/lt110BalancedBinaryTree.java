@@ -1,7 +1,7 @@
 package leetcode.linklist;
 
-import leetcode.common.TreeNode;
-import leetcode.common.BinaryTreeUtil;
+import common.util.TreeNode;
+import common.util.BinaryTreeUtil;
 
 /**
  * @Author: zhangjianwu
@@ -12,7 +12,7 @@ import leetcode.common.BinaryTreeUtil;
 
 public class lt110BalancedBinaryTree {
     public static void main(String[] args) {
-        leetcode.common.TreeNode root = BinaryTreeUtil.createBinaryTree();
+        TreeNode root = BinaryTreeUtil.createBinaryTree();
         System.out.println(isBalanced(root));
     }
     public static   boolean isBalanced(TreeNode root) {

@@ -1,7 +1,7 @@
 package recent;
 
-import Util.ArrayUtil;
-import Util.NumUtil;
+import common.util.ArrayUtil;
+import common.util.NumUtil;
 
 /**
  * @Author: zhangjianwu

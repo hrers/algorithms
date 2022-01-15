@@ -1,10 +1,8 @@
 package leetcode.tree.binarytree;
 
-import leetcode.common.BinaryTreeUtil;
-import leetcode.common.TreeNode;
+import common.util.BinaryTreeUtil;
+import common.util.TreeNode;
 import org.junit.Test;
-
-import java.util.List;
 
 /**
  * @Author: zhangjianwu

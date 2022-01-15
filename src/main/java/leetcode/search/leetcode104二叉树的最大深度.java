@@ -1,7 +1,7 @@
 package leetcode.search;
 
-import leetcode.common.BinaryTreeUtil;
-import leetcode.common.TreeNode;
+import common.util.BinaryTreeUtil;
+import common.util.TreeNode;
 
 /**
  * Definition for a binary tree node.

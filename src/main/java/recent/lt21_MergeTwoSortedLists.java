@@ -1,8 +1,8 @@
 package recent;
 
 
-import leetcode.common.LinkedListUtil;
-import leetcode.common.ListNode;
+import common.util.LinkedListUtil;
+import common.util.ListNode;
 
 
 /**
@@ -19,7 +19,7 @@ public class lt21_MergeTwoSortedLists {
         l2.next=new ListNode(4);
         l2.next.next=new ListNode(6);
 
-        LinkedListUtil.print(mergeTwoLists(l1,l2));
+        LinkedListUtil.printListNode(mergeTwoLists(l1,l2));
     }
     public static ListNode mergeTwoLists(ListNode l1, ListNode l2) {
         if(l1==null) return l2;

@@ -1,8 +1,6 @@
 package recent;
-import Util.ArrayUtil;
-import Util.NumUtil;
+import common.util.ArrayUtil;
 
-import java.math.BigInteger;
 import java.util.LinkedList;
 /**
  * @Author: zhangjianwu

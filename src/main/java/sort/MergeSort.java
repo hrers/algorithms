@@ -1,9 +1,8 @@
 package sort;
 
-import Util.ArrayUtil;
-import Util.NumUtil;
+import common.util.ArrayUtil;
+import common.util.NumUtil;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
 /**
