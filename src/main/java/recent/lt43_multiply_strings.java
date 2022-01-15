@@ -1,4 +1,5 @@
 package recent;
+import Util.ArrayUtil;
 import Util.NumUtil;
 
 import java.math.BigInteger;
@@ -54,7 +55,7 @@ public class lt43_multiply_strings {
             plus=0;
         }
         System.out.println("中间数组");
-        NumUtil.print(arr);
+        ArrayUtil.print(arr);
        //处理中间数组
         LinkedList<Integer> list= new LinkedList<>();
         int count=0;int resplus=0;int restem=0;

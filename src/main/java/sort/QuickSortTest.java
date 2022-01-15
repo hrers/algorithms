@@ -1,5 +1,6 @@
 package sort;
 
+import Util.ArrayUtil;
 import Util.NumUtil;
 
 /**
@@ -10,9 +11,9 @@ import Util.NumUtil;
 public class QuickSortTest {
     public static void main(String[] args) {
         int[] arr= NumUtil.getRandomArray();
-        NumUtil.print(arr);
+        ArrayUtil.print(arr);
         quickSort(0,arr.length-1,arr);
-        NumUtil.print(arr);
+        ArrayUtil.print(arr);
     }
     private static void quickSort(int left, int right, int[] arr) {
         if(right<=left){

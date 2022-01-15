@@ -1,5 +1,6 @@
 package sort;
 
+import Util.ArrayUtil;
 import Util.NumUtil;
 
 /**
@@ -17,9 +18,9 @@ public class CountingSort {
 
     public static void main(String[] args) {
         int[] arr = NumUtil.getRandomArray();
-        NumUtil.print(arr);
+        ArrayUtil.print(arr);
         int[] res=countingSort(arr);
-        NumUtil.print(arr);
+        ArrayUtil.print(arr);
     }
     private static int[] countingSort(int[] arr) {
         //获取最大的值

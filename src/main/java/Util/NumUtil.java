@@ -1,5 +1,6 @@
 package Util;
 
+import java.util.Arrays;
 import java.util.Random;
 
 /**
@@ -9,7 +10,10 @@ import java.util.Random;
  **/
 public class NumUtil {
 
-    //获取随机数组
+    /**
+     * get a randon array
+     * @return
+     */
     public static int[] getRandomArray(){
         Random random = new Random();
         int[] a=new int[10];
@@ -18,22 +22,20 @@ public class NumUtil {
         }
         return a;
     }
-
-    //打印一维数组
-    public static void print(int[] arr){
-        for (int i : arr) {
-            System.out.print(i+" ");
-        }
-        System.out.println();
+    
+    /**
+     * get a const array for debug
+     */
+    public static int[] getConstArray(){
+        return new int[]{14, 2, 6, -86, 1, 9, 22, 26, 97, 83};
     }
 
-    //打印二维数组
-    public static void print(int[][] arr){
-        for (int i = 0; i < arr.length; i++) {
-            for (int j = 0; j < arr[0].length; j++) {
-                System.out.print(arr[i][j]+" ");
-            }
-            System.out.println();
-        }
+    /**
+     * get a sorted array
+     */
+    public static int[] getSortedArray(){
+        return  Arrays.stream(NumUtil.getRandomArray()).sorted().toArray();
     }
+
+
 }

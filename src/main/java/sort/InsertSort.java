@@ -1,5 +1,6 @@
 package sort;
 
+import Util.ArrayUtil;
 import Util.NumUtil;
 
 /**
@@ -10,7 +11,7 @@ import Util.NumUtil;
 public class InsertSort {
     public static void main(String[] args) {
         int[] randomArray = NumUtil.getRandomArray();
-        NumUtil.print(randomArray);
+        ArrayUtil.print(randomArray);
         insertSort2(randomArray);
     }
     private static void insertSort2(int[] arr) {
@@ -25,7 +26,7 @@ public class InsertSort {
                 arr[j]=tem;
             }
         }
-        NumUtil.print(arr);
+        ArrayUtil.print(arr);
     }
 
     public static void insertSort1(int[] arr){
@@ -44,6 +45,6 @@ public class InsertSort {
                 arr[0]=tem;
             }
         }
-        NumUtil.print(arr);
+        ArrayUtil.print(arr);
     }
 }

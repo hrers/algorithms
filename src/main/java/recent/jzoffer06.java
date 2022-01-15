@@ -1,5 +1,6 @@
 package recent;
 
+import Util.ArrayUtil;
 import Util.NumUtil;
 import leetcode.common.ListNode;
 import java.util.LinkedList;
@@ -22,7 +23,7 @@ public class jzoffer06 {
         root.next=new ListNode(8);
         //int[] ints = reversePrint(root);
         int[] ints = reversePrint2(root);
-        NumUtil.print(ints);
+        ArrayUtil.print(ints);
     }
     public static int[] reversePrint(ListNode head) {
         LinkedList<Integer> stack= new LinkedList<>();

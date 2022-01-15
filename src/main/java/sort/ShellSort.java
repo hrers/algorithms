@@ -1,4 +1,5 @@
 package sort;
+import Util.ArrayUtil;
 import Util.NumUtil;
 
 /**
@@ -21,9 +22,9 @@ import Util.NumUtil;
 public class ShellSort {
     public static void main(String[] args) {
         int[] randomArray = NumUtil.getRandomArray();
-        NumUtil.print(randomArray);
+        ArrayUtil.print(randomArray);
         sort(randomArray);
-        NumUtil.print(randomArray);
+        ArrayUtil.print(randomArray);
     }
     public static void sort(int[] arr){
         for (int gap = arr.length/2; gap>0; gap/=2){

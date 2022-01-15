@@ -1,5 +1,6 @@
 package recent;
 
+import Util.ArrayUtil;
 import Util.NumUtil;
 
 /**
@@ -17,7 +18,7 @@ import Util.NumUtil;
 public class jzoffer03 {
     public static void main(String[] args) {
         int[] arr = NumUtil.getRandomArray();
-        NumUtil.print(arr);
+        ArrayUtil.print(arr);
         findRepeatNumber(arr);
     }
     public static int findRepeatNumber(int[] nums) {

@@ -1,7 +1,9 @@
 package sort;
 
+import Util.ArrayUtil;
 import Util.NumUtil;
 
+import java.lang.reflect.Array;
 import java.util.Arrays;
 
 /**
@@ -16,9 +18,9 @@ import java.util.Arrays;
 public class MergeSort {
     public static void main(String[] args) {
         int[] arr= NumUtil.getRandomArray();
-        NumUtil.print(arr);
+        ArrayUtil.print(arr);
         int[] res=mergeSort(arr);
-        NumUtil.print(res);
+        ArrayUtil.print(res);
     }
     private static int[] mergeSort(int[] arr) {
         if(arr.length<2){
