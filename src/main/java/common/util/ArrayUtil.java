@@ -6,6 +6,11 @@ package common.util;
  * @Desc:
  **/
 public class ArrayUtil {
+
+    public static int[] geneIntArray(){
+        int[] arr={1,2,2,2,2,3,3,4,5,6,6,7,8};
+        return arr;
+    }
     /**
      * print array
      * @param arr
