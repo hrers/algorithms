@@ -8,7 +8,7 @@ package common.util;
 public class ArrayUtil {
 
     public static int[] geneIntArray(){
-        int[] arr={1,2,2,2,2,3,3,4,5,6,6,7,8};
+        int[] arr={1,2,2,4,5,7,8,11,12,12};
         return arr;
     }
     /**
