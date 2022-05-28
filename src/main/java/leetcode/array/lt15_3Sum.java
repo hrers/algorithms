@@ -1,11 +1,11 @@
 package leetcode.array;
 
-import com.sun.org.apache.bcel.internal.generic.ARETURN;
 import common.util.ArrayUtil;
-import common.util.NumUtil;
 
-import java.lang.reflect.Array;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
 
 /**
  * @Author: zhangjianwu

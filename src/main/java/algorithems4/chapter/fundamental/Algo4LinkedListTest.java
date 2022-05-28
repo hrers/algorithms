@@ -1,7 +1,6 @@
-package algorithems4;
+package algorithems4.chapter.fundamental;
 
 import cn.hutool.core.util.ObjectUtil;
-import com.sun.deploy.net.proxy.UserDefinedProxyConfig;
 import common.base.node.Node;
 import common.util.LinkedListUtil;
 import org.junit.Test;

@@ -1,6 +1,5 @@
 package common.util;
 
-@Deprecated
 public class ListNode {
       public int val;
       public ListNode next;

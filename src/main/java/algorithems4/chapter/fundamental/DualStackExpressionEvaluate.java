@@ -1,6 +1,4 @@
-package algorithems4;
-
-import org.junit.Test;
+package algorithems4.chapter.fundamental;
 
 import java.util.Scanner;
 import java.util.Stack;

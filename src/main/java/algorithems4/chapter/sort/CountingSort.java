@@ -1,7 +1,4 @@
-package sort;
-
-import common.util.ArrayUtil;
-import common.util.NumUtil;
+package algorithems4.chapter.sort;
 
 /**
  * @Author: zhangjianwu
@@ -14,26 +11,33 @@ import common.util.NumUtil;
  *
  *
  **/
-public class CountingSort {
+public class CountingSort extends AbstractSort{
 
     public static void main(String[] args) {
-        int[] arr = NumUtil.getRandomArray();
-        ArrayUtil.print(arr);
-        int[] res=countingSort(arr);
-        ArrayUtil.print(arr);
+        CountingSort countingSort = new CountingSort();
+        countingSort.run(10);
     }
-    private static int[] countingSort(int[] arr) {
+
+    @Override
+    protected void sort(Comparable[] arr) {
+        Comparable[] comparables = countingSort(arr);
+        for (int i = 0; i < comparables.length; i++) {
+            arr[i]=comparables[i];
+        }
+    }
+
+    private Comparable[] countingSort(Comparable[] arr) {
         //获取最大的值
         int max=0;
-        for (int i : arr) {
-           if(max<i) {
-               max=i;
+        for (Comparable i : arr) {
+           if(i.compareTo(max)>0) {
+               max= (int) i;
            }
         }
         //计入桶中
         int[] bucket=new int[max+1];
-        for (int value : arr) {
-            bucket[value]++;
+        for (Comparable value : arr) {
+            bucket[(int) value]++;
         }
         //从桶中往原数组覆盖
         int index=0;
@@ -45,4 +49,5 @@ public class CountingSort {
         }
         return arr;
     }
+
 }

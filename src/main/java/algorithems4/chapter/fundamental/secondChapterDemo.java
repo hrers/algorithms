@@ -1,4 +1,4 @@
-package algorithems4;
+package algorithems4.chapter.fundamental;
 
 import common.util.QueueUtil;
 import edu.princeton.cs.algs4.Queue;
